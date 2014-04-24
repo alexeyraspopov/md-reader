@@ -1,0 +1,8 @@
+{
+  "name": "md-reader",
+  "version": "0.0.1",
+  "description": "MD Reader",
+  "license": "MIT",
+  "main": "index.js",
+  "author": "Alexey Raspopov (https://github.com/alexeyraspopov)"
+}
