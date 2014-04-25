@@ -10,7 +10,7 @@
     "md": "cli.js"
   },
   "dependencies": {
-    "clify": "^0.1.1",
+    "clify": "^0.2.0",
     "marked": "^0.3.2",
     "multiline": "^0.3.2",
     "tempfile": "^0.1.3",

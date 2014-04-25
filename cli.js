@@ -15,5 +15,5 @@ clify(md, {
 }, function(args){
 	var path = require('path');
 
-	return [path.join(process.cwd(), args[2])];
+	return [path.join(process.cwd(), args[0])];
 });
