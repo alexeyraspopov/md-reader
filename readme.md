@@ -1,28 +1,18 @@
 # md-reader
 
-MD Reader
+Parse Markdown file and open it in browser.
 
 ## Install
 
 ```bash
-$ npm install md-reader
+$ npm install md-reader -g
 ```
-
-```bash
-$ component install alexeyraspopov/md-reader
-```
-
-```bash
-$ bower install md-reader
-```
-
-## API
-
-TBD
 
 ## Usage
 
-TBD
+```bash
+$ md some/file.md
+```
 
 ## License
 
