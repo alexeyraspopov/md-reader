@@ -1,6 +1,6 @@
 {
   "name": "md-reader",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "MD Reader",
   "license": "MIT",
   "main": "index.js",
