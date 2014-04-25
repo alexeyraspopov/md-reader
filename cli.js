@@ -13,5 +13,7 @@ clify(md, {
 		  $ md readme.md
 	*/})
 }, function(args){
-	return [args[2]];
+	var path = require('path');
+
+	return [path.join(process.cwd(), args[2])];
 });
