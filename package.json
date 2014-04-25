@@ -5,6 +5,10 @@
   "license": "MIT",
   "main": "index.js",
   "author": "Alexey Raspopov (https://github.com/alexeyraspopov)",
+  "repository": "alexeyraspopov/md-reader",
+  "bin": {
+    "md": "cli.js"
+  },
   "dependencies": {
     "clify": "^0.1.1",
     "marked": "^0.3.2",
