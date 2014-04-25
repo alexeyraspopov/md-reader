@@ -3,7 +3,7 @@ var fs = require('fs'),
 	opn = require('opn'),
 	tempfile = require('tempfile'),
 	path = require('path'),
-	stylesheet = '<link rel="stylesheet" href="' + path.join(process.cwd(), 'styles/github.css') + '">';
+	stylesheet = '<link rel="stylesheet" href="' + path.join(__dirname, 'styles/github.css') + '">';
 
 module.exports = function(filename){
 	var content = fs.readFileSync(filename, 'utf-8'),
