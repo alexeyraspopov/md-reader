@@ -7,10 +7,11 @@ var fs = require('fs'),
 module.exports = function(filename){
 	var content = fs.readFileSync(filename, { encoding: 'utf-8' }),
 		temp = tempfile('.html'),
+		meta = '<meta charset="utf-8">',
 		stylesheet = '<link rel="stylesheet" href="' + path.join(__dirname, 'styles/github.css') + '">',
 		base = '<base href="' + path.dirname(filename) + '/">';
 
-	content = base + stylesheet + marked(content);
+	content = meta + base + stylesheet + marked(content);
 	fs.writeFileSync(temp, content);
 	opn(temp);
 };
